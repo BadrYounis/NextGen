@@ -30,6 +30,8 @@ See the project in:
 
 ## How to View
 
+Visit the [NextGen Internship website](https://badryounis.github.io/NextGen/) to view the projects online.
+
 Open any task folder and launch the `index.html` file in a browser.
 
 ## Author
