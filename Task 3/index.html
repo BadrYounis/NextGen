@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore The World</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+    <!-- Navbar -->
+    <header class="navbar">
+      <div class="logo">Explore<span>.</span></div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#destinations">Destinations</a></li>
+          <li><a href="#about">About Us</a></li>
+        </ul>
+      </nav>
+      <a href="#destinations" class="btn-primary">Explore Now</a>
+    </header>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <p class="subtitle">DISCOVER THE WORLD</p>
+        <h1>Explore The <span>Beautiful World</span></h1>
+        <p class="description">
+          Discover amazing places, explore different cultures and experience
+          unforgettable journeys.
+        </p>
+        <a href="#destinations" class="btn-primary">Start Exploring</a>
+      </div>
+    </section>
+
+    <!-- Destinations -->
+    <section id="destinations" class="destinations">
+      <div class="section-header">
+        <p class="subtitle">YOUR NEXT ADVENTURE</p>
+        <h2>Popular Destinations</h2>
+        <p class="description">
+          Explore some of the most beautiful cities in the world.
+        </p>
+      </div>
+
+      <div class="destination-card">
+        <!-- Left Info -->
+        <div class="dest-info">
+          <p class="counter" id="dest-counter">01 / 04</p>
+          <p class="country" id="dest-country">FRANCE</p>
+          <h2 id="dest-city">Paris</h2>
+          <p class="dest-desc" id="dest-desc">
+            Paris is one of the most beautiful cities in the world, famous for
+            its art, architecture and romantic atmosphere.
+          </p>
+
+          <div class="dest-grid">
+            <div class="info-box">
+              <h4>Continent</h4>
+              <p id="dest-continent">Europe</p>
+            </div>
+            <div class="info-box">
+              <h4>Famous Food</h4>
+              <p id="dest-food">Croissant, Macarons</p>
+            </div>
+            <div class="info-box">
+              <h4>Famous Place</h4>
+              <p id="dest-place">Eiffel Tower</p>
+            </div>
+            <div class="info-box">
+              <h4>Language</h4>
+              <p id="dest-lang">French</p>
+            </div>
+          </div>
+
+          <!-- Explore More -->
+          <button id="explore-more-btn" class="dark-btn">Explore More</button>
+        </div>
+
+        <!-- Right Image -->
+        <div class="dest-image-wrapper">
+          <img
+            id="dest-img"
+            src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=800&q=80"
+            alt="Paris City"
+          />
+          <div class="image-badge">
+            <span>DESTINATION</span>
+            <h3 id="badge-num">01</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slider Controls -->
+      <div class="slider-controls">
+        <button id="prev-btn" class="dark-btn">&#8592; Previous</button>
+        <div class="dots" id="dots-container">
+          <span class="dot active" data-index="0"></span>
+          <span class="dot" data-index="1"></span>
+          <span class="dot" data-index="2"></span>
+          <span class="dot" data-index="3"></span>
+        </div>
+        <button id="next-btn" class="dark-btn">Next &#8594;</button>
+      </div>
+    </section>
+
+    <!-- Banner / About Section -->
+    <section id="about" class="cta-banner">
+      <h2>Travel. Discover. Enjoy.</h2>
+      <p>Every destination has a story. Let's discover it together.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2026 Explore The World. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
