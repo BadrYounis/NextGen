@@ -6,6 +6,7 @@ This repository contains front-end web design tasks completed as part of the Nex
 
 - `Task 1/` — Personal portfolio website
 - `Task 2/` — Creative Academy landing page
+- `Task 3/` — Travel destinations website
 
 ## Task 1
 
@@ -23,10 +24,20 @@ See the project in:
 - `Task 2/index.html`
 - `Task 2/README.md`
 
+## Task 3
+
+A responsive travel website for exploring popular destinations around the world. It includes a destination slider with navigation controls and interactive destination details.
+
+See the project in:
+- `Task 3/index.html`
+- `Task 3/style.css`
+- `Task 3/script.js`
+
 ## Technologies Used
 
 - HTML5
 - CSS3
+- JavaScript
 
 ## How to View
 
